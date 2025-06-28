@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ### 4. Run the FastAPI server
 
 ```bash
-python app/main.py
+uvicorn main:app --reload
 ```
 
 Now open your browser at [http://127.0.0.1:8000](http://127.0.0.1:8000)
